@@ -110,21 +110,21 @@ export { URL_PARAMS };
 
 export const SCRIPT_URLS = {
   echartsMinJS:
-    '/echarts4/cdn/echarts.min.js?v={{version}}',
-  echartsDir: '/echarts4/cdn/echarts',
+    '/echarts5/cdn/echarts.min.js?v={{version}}',
+  echartsDir: '/echarts5/cdn/echarts',
 
   localEChartsMinJS: 'http://localhost/echarts/dist/echarts.js',
   localEChartsDir: 'http://localhost/echarts',
 
   echartsStatMinJS:
-    '/echarts4/cdn/ecStat.min.js',
+    '/echarts5/cdn/ecStat.min.js',
   // echartsGLMinJS: 'http://localhost/echarts-gl/dist/echarts-gl.min.js',
   echartsGLMinJS:
-    '/echarts4/cdn/echarts-gl.min.js',
+    '/echarts5/cdn/echarts-gl.min.js',
   datGUIMinJS:
-    '/echarts4/cdn/dat.gui.min.js',
-  monacoDir: '/echarts4/cdn/monaco',
-  aceDir: '/echarts4/cdn/ace',
+    '/echarts5/cdn/dat.gui.min.js',
+  monacoDir: '/echarts5/cdn/monaco',
+  aceDir: '/echarts5/cdn/ace',
 
-  prettierDir: '/echarts4/cdn/prettier'
+  prettierDir: '/echarts5/cdn/prettier'
 };
