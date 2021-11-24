@@ -110,21 +110,21 @@ export { URL_PARAMS };
 
 export const SCRIPT_URLS = {
   echartsMinJS:
-    'https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js',
-  echartsDir: 'https://cdn.jsdelivr.net/npm/echarts@{{version}}',
+    '/echarts4/cdn/echarts.min.js?v={{version}}',
+  echartsDir: '/echarts4/cdn/echarts',
 
   localEChartsMinJS: 'http://localhost/echarts/dist/echarts.js',
   localEChartsDir: 'http://localhost/echarts',
 
   echartsStatMinJS:
-    'https://cdn.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js',
+    '/echarts4/cdn/ecStat.min.js',
   // echartsGLMinJS: 'http://localhost/echarts-gl/dist/echarts-gl.min.js',
   echartsGLMinJS:
-    'https://cdn.jsdelivr.net/npm/echarts-gl@2/dist/echarts-gl.min.js',
+    '/echarts4/cdn/echarts-gl.min.js',
   datGUIMinJS:
-    'https://cdn.jsdelivr.net/npm/dat.gui@0.6.5/build/dat.gui.min.js',
-  monacoDir: 'https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs',
-  aceDir: 'https://cdn.jsdelivr.net/npm/ace-builds@1.4.12/src-min-noconflict',
+    '/echarts4/cdn/dat.gui.min.js',
+  monacoDir: '/echarts4/cdn/monaco',
+  aceDir: '/echarts4/cdn/ace',
 
-  prettierDir: 'https://cdn.jsdelivr.net/npm/prettier@2.3.2'
+  prettierDir: '/echarts4/cdn/prettier'
 };
